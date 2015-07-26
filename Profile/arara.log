@@ -1,0 +1,1292 @@
+20 Jul 2015 23:09:47.368 INFO  Arara - Welcome to arara!
+20 Jul 2015 23:09:47.375 INFO  Arara - Processing file 'Profile.tex', please wait.
+20 Jul 2015 23:09:47.377 INFO  DirectiveExtractor - Reading directives from Profile.tex.
+20 Jul 2015 23:09:47.380 TRACE DirectiveExtractor - Directive found in line 4 with pdflatex: { synctex: on, shell: yes }.
+20 Jul 2015 23:09:47.468 TRACE DirectiveExtractor - Directive found in line 5 with bibtex.
+20 Jul 2015 23:09:47.468 TRACE DirectiveExtractor - Directive found in line 6 with pdflatex: { synctex: on, shell: yes }.
+20 Jul 2015 23:09:47.469 TRACE DirectiveExtractor - Directive found in line 7 with pdflatex: { synctex: on, shell: yes }.
+20 Jul 2015 23:09:47.474 INFO  DirectiveParser - Parsing directives.
+20 Jul 2015 23:09:47.478 INFO  TaskDeployer - Deploying tasks into commands.
+20 Jul 2015 23:09:47.478 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
+20 Jul 2015 23:09:47.635 TRACE TaskDeployer - Task 'bibtex' found in 'C:\Program Files\arara\rules'.
+20 Jul 2015 23:09:47.639 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
+20 Jul 2015 23:09:47.651 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
+20 Jul 2015 23:09:47.661 INFO  CommandTrigger - Ready to run commands.
+20 Jul 2015 23:09:47.662 INFO  CommandTrigger - Running 'PDFLaTeX'.
+20 Jul 2015 23:09:47.662 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "Profile.tex"
+20 Jul 2015 23:09:49.846 TRACE CommandTrigger - Output logging:
+20 Jul 2015 23:09:49.848 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9)
+entering extended mode
+(Profile.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 69 languages loaded.
+(../Preamble/UMSAetn.cls
+
+LaTeX Warning: You have requested document class `../Preamble/UMSAetn',
+               but the document class provides `Preamble/UMSAetn'.
+
+Document Class: Preamble/UMSAetn 2015/07/20 UMSA-ETN-Bolivia
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"))))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel\babel.sty"
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-spanish\spanish.ldf
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel\babel.def")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\tabulary\tabulary.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg))
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\easylist\easylist.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex1.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-natbib.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bbx
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
+))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric.cbx)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\svgnam.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\x11nam.def))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\imakeidx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xpatch\xpatch.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3unicode-data.d
+ef)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.
+sty)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"))
+Writing index file Profile.idx
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossarie
+s.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\mfirstuc.
+sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xfor\xfor.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-base.st
+y (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\substr\substr.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-fp.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp.sty
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\defpattern.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-basic.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-addons.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-snap.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-exp.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-trigo.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-pas.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-random.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eqn.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-upn.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eval.sty))))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossarie
+s-compatible-307.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\tracklang\tracklang.tex"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tr
+anslator.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tr
+anslator-language-mappings.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries-spanish\glossa
+ries-spanish.ldf
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries-spanish\glossa
+ries-spanish-utf8.ldf))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-hypernav.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-list.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-long.sty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"))
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-super.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabular
+.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-tree.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithm2e\algorithm2e.s
+ty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty")
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+) (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\was\gensymb.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.st
+y (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon-lists.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-l
+atex.def (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty)
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.co
+de.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.st
+y
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.st
+y
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.
+code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfi
+ltered.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
+pdftex.def
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
+common-pdf.def)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyss
+oftpath.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysp
+rotocol.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.
+code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.co
+de.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.co
+de.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.
+code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.basic.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.trigonometric.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.random.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.comparison.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.base.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.round.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.misc.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.integerarithmetics.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.c
+ode.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+oints.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athconstruct.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athusage.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
+copes.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreg
+raphicstate.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
+ransformations.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreq
+uick.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreo
+bjects.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athprocessing.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorea
+rrows.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
+hade.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorei
+mage.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoree
+xternal.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorel
+ayers.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
+ransparency.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+atterns.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesh
+apes.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulepl
+ot.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
+-version-0-65.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
+-version-1-18.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.co
+de.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+tikz.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
+yplothandlers.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulema
+trix.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\circuitikz\circuitikz.sty
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+libraries\tikzlibrarycalc.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
+yarrows.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\circuitikz.c
+ode.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircutils
+.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmath.
+tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircshape
+s.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmonop
+oles.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircbipol
+es.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirctripo
+les.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircquadp
+oles.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircnpole
+s.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirclabel
+.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircvolta
+ge.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirccurre
+nt.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircinput
+arrows.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\circuitikz1.
+code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\animate\animate.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\ifdraft.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\atenddvi.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-lastpage.sty"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\animate\animfp.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)) (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg))
+(../Preamble/Administrative.sty
+
+LaTeX Warning: You have requested package `../Preamble/Administrative',
+               but the package provides `Preamble/Administrative'.
+
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\spanish.lbx)
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+(Profile.aux (Frontpages/Title.aux))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd")
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty)
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+No file Profile.bbl.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"))
+(Profile.out) (Profile.out) ABD: EveryShipout initializing macros
+(Frontpages/Title.tex <Figures/logoumsa.png, id=52, 62.48344pt x 126.4725pt>
+<use Figures/logoumsa.png>
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd") [1{C:/Users/zurits
+/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/logoumsa.png>])
+(Profile.toc)pdfTeX warning (ext4): destination with the same identifier (name{
+page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 	\cleardoublepage
+                       [1] (Sections/01-Introduccion.tex)
+(Sections/02-Antecedentes.tex) (Sections/03-DefinicionDelProblema.tex)
+(Sections/04-Objetivos.tex) (Sections/05-Justificacion.tex)
+(Sections/06-AlcancesYLimitaciones.tex)
+(Sections/07-ProcedimientoDeDesarrollo.tex) (Sections/08-Temario.tex)
+(Sections/09-Cronograma.tex)
+
+LaTeX Warning: Empty bibliography on input line 54.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found.
+(Remove \makeglossaries if you don't want any glossaries.)
+This document will not have a glossary.
+
+[2] [3] (Profile.aux (Frontpages/Title.aux)) )
+(see the transcript file for additional information){C:/Program Files (x86)/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
+Output written on Profile.pdf (4 pages, 200944 bytes).
+SyncTeX written on Profile.synctex.gz.
+Transcript written on Profile.log.
+
+20 Jul 2015 23:09:49.849 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+20 Jul 2015 23:09:49.849 INFO  CommandTrigger - Running 'BibTeX'.
+20 Jul 2015 23:09:49.849 TRACE CommandTrigger - Command: bibtex  "Profile.aux"
+20 Jul 2015 23:09:50.217 TRACE CommandTrigger - Output logging:
+20 Jul 2015 23:09:50.218 TRACE CommandTrigger - This is BibTeX, Version 0.99d (MiKTeX 2.9)
+The top-level auxiliary file: Profile.aux
+The style file: biblatex.bst
+A level-1 auxiliary file: Frontpages/Title.aux
+Database file #1: Profile-blx.bib
+Database file #2: BibliographyProfile.bib
+Biblatex version: 3.0
+
+20 Jul 2015 23:09:50.218 INFO  CommandTrigger - 'BibTeX' was successfully executed.
+20 Jul 2015 23:09:50.218 INFO  CommandTrigger - Running 'PDFLaTeX'.
+20 Jul 2015 23:09:50.218 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "Profile.tex"
+20 Jul 2015 23:09:52.288 TRACE CommandTrigger - Output logging:
+20 Jul 2015 23:09:52.290 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9)
+entering extended mode
+(Profile.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 69 languages loaded.
+(../Preamble/UMSAetn.cls
+
+LaTeX Warning: You have requested document class `../Preamble/UMSAetn',
+               but the document class provides `Preamble/UMSAetn'.
+
+Document Class: Preamble/UMSAetn 2015/07/20 UMSA-ETN-Bolivia
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"))))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel\babel.sty"
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-spanish\spanish.ldf
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel\babel.def")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\tabulary\tabulary.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg))
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\easylist\easylist.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex1.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-natbib.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bbx
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
+))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric.cbx)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\svgnam.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\x11nam.def))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\imakeidx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xpatch\xpatch.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3unicode-data.d
+ef)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.
+sty)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"))
+Writing index file Profile.idx
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossarie
+s.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\mfirstuc.
+sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xfor\xfor.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-base.st
+y (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\substr\substr.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-fp.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp.sty
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\defpattern.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-basic.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-addons.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-snap.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-exp.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-trigo.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-pas.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-random.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eqn.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-upn.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eval.sty))))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossarie
+s-compatible-307.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\tracklang\tracklang.tex"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tr
+anslator.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tr
+anslator-language-mappings.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries-spanish\glossa
+ries-spanish.ldf
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries-spanish\glossa
+ries-spanish-utf8.ldf))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-hypernav.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-list.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-long.sty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"))
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-super.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabular
+.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-tree.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithm2e\algorithm2e.s
+ty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty")
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+) (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\was\gensymb.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.st
+y (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon-lists.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-l
+atex.def (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty)
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.co
+de.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.st
+y
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.st
+y
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.
+code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfi
+ltered.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
+pdftex.def
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
+common-pdf.def)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyss
+oftpath.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysp
+rotocol.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.
+code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.co
+de.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.co
+de.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.
+code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.basic.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.trigonometric.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.random.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.comparison.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.base.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.round.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.misc.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.integerarithmetics.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.c
+ode.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+oints.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athconstruct.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athusage.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
+copes.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreg
+raphicstate.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
+ransformations.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreq
+uick.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreo
+bjects.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athprocessing.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorea
+rrows.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
+hade.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorei
+mage.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoree
+xternal.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorel
+ayers.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
+ransparency.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+atterns.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesh
+apes.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulepl
+ot.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
+-version-0-65.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
+-version-1-18.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.co
+de.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+tikz.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
+yplothandlers.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulema
+trix.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\circuitikz\circuitikz.sty
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+libraries\tikzlibrarycalc.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
+yarrows.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\circuitikz.c
+ode.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircutils
+.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmath.
+tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircshape
+s.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmonop
+oles.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircbipol
+es.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirctripo
+les.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircquadp
+oles.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircnpole
+s.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirclabel
+.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircvolta
+ge.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirccurre
+nt.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircinput
+arrows.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\circuitikz1.
+code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\animate\animate.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\ifdraft.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\atenddvi.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-lastpage.sty"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\animate\animfp.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)) (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg))
+(../Preamble/Administrative.sty
+
+LaTeX Warning: You have requested package `../Preamble/Administrative',
+               but the package provides `Preamble/Administrative'.
+
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\spanish.lbx)
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+(Profile.aux (Frontpages/Title.aux))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd")
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty)
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+(Profile.bbl) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.st
+y" ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+)) (Profile.out) (Profile.out) ABD: EveryShipout initializing macros
+(Frontpages/Title.tex <Figures/logoumsa.png, id=52, 62.48344pt x 126.4725pt>
+<use Figures/logoumsa.png>
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd") [1{C:/Users/zurits
+/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/logoumsa.png>])
+(Profile.toc)pdfTeX warning (ext4): destination with the same identifier (name{
+page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 	\cleardoublepage
+                       [1] (Sections/01-Introduccion.tex)
+(Sections/02-Antecedentes.tex) (Sections/03-DefinicionDelProblema.tex)
+(Sections/04-Objetivos.tex) (Sections/05-Justificacion.tex)
+(Sections/06-AlcancesYLimitaciones.tex)
+(Sections/07-ProcedimientoDeDesarrollo.tex) (Sections/08-Temario.tex)
+(Sections/09-Cronograma.tex)
+
+LaTeX Warning: Empty bibliography on input line 54.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found.
+(Remove \makeglossaries if you don't want any glossaries.)
+This document will not have a glossary.
+
+[2] [3] (Profile.aux (Frontpages/Title.aux)) )
+(see the transcript file for additional information){C:/Program Files (x86)/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
+Output written on Profile.pdf (4 pages, 200943 bytes).
+SyncTeX written on Profile.synctex.gz.
+Transcript written on Profile.log.
+
+20 Jul 2015 23:09:52.290 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+20 Jul 2015 23:09:52.290 INFO  CommandTrigger - Running 'PDFLaTeX'.
+20 Jul 2015 23:09:52.290 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "Profile.tex"
+20 Jul 2015 23:09:54.464 TRACE CommandTrigger - Output logging:
+20 Jul 2015 23:09:54.466 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9)
+entering extended mode
+(Profile.tex
+LaTeX2e <2015/01/01>
+Babel <3.9l> and hyphenation patterns for 69 languages loaded.
+(../Preamble/UMSAetn.cls
+
+LaTeX Warning: You have requested document class `../Preamble/UMSAetn',
+               but the document class provides `Preamble/UMSAetn'.
+
+Document Class: Preamble/UMSAetn 2015/07/20 UMSA-ETN-Bolivia
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"))))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\article.cls"
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size10.clo"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\parskip.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel\babel.sty"
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\babel-spanish\spanish.ldf
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\babel\babel.def")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\lmodern.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+For additional information on amsmath, use the `?' option.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\textcomp.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1enc.dfu")))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\booktabs\booktabs.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\tabulary\tabulary.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\caption3.sty))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\float\float.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.sty
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\subfigure\subfigure.cfg))
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\easylist\easylist.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex1.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\etoolbox\etoolbox.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\logreq\logreq.def))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-compat.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\blx-natbib.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\numeric.bbx
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\bbx\standard.bbx
+))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\cbx\numeric.cbx)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\biblatex.cfg)))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\colortbl\colortbl.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def")
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\svgnam.def)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xcolor\x11nam.def))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\imakeidx.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xkeyval\xkeyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkeyval.tex"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\xkeyval\xkvutils.tex")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xpatch\xpatch.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\expl3-code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3unicode-data.d
+ef)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3kernel\l3pdfmode.def))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\l3packages\xparse\xparse.
+sty)) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\multicol.sty"))
+Writing index file Profile.idx
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"))
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossarie
+s.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\mfirstuc.
+sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\textcase\textcase.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\xfor\xfor.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-base.st
+y (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\substr\substr.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\datatool\datatool-fp.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp.sty
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\defpattern.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-basic.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-addons.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-snap.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-exp.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-trigo.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-pas.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-random.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eqn.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-upn.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\fp\fp-eval.sty))))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\base\glossarie
+s-compatible-307.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tracklang\tracklang.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\tracklang\tracklang.tex"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tr
+anslator.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\beamer\base\translator\tr
+anslator-language-mappings.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries-spanish\glossa
+ries-spanish.ldf
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries-spanish\glossa
+ries-spanish-utf8.ldf))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-hypernav.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-list.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-long.sty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\longtable.sty"))
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-super.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\supertabular\supertabular
+.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\glossaries\styles\glossar
+y-tree.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\algorithm2e\algorithm2e.s
+ty ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\relsize.sty")
+********************************************************
+Package `algorithm2e' Release 5.0 -- january 06 2013 --
+- algorithm2e-announce@lirmm.fr mailing list for announcement about releases
+- algorithm2e-discussion@lirmm.fr mailing list for discussion about package
+subscribe by emailing sympa@lirmm.fr with 'subscribe <list> <firstname name>'
+- Author: Christophe Fiorio (cfiorio@um2.fr)
+********************************************************
+) (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\was\gensymb.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty")))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\frontendlayer\tikz.st
+y (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgf.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfrcs.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-c
+ommon-lists.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfutil-l
+atex.def (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\ms\everyshi.sty)
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfrcs.co
+de.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\basiclayer\pgfcore.st
+y
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\systemlayer\pgfsys.st
+y
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys.
+code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeysfi
+ltered.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgf.cfg
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
+pdftex.def
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsys-
+common-pdf.def)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsyss
+oftpath.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\systemlayer\pgfsysp
+rotocol.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcore.
+code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathcalc.co
+de.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathutil.co
+de.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathparser.
+code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.basic.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.trigonometric.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.random.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.comparison.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.base.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.round.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.misc.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfunctio
+ns.integerarithmetics.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmathfloat.c
+ode.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+oints.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athconstruct.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athusage.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
+copes.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreg
+raphicstate.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
+ransformations.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreq
+uick.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoreo
+bjects.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+athprocessing.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorea
+rrows.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcores
+hade.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorei
+mage.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoree
+xternal.code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorel
+ayers.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcoret
+ransparency.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\basiclayer\pgfcorep
+atterns.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulesh
+apes.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulepl
+ot.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
+-version-0-65.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\compatibility\pgfcomp
+-version-1-18.sty))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgffor.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\utilities\pgfkeys.sty
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgfkeys.c
+ode.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\pgf\math\pgfmath.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\utilities\pgffor.co
+de.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\math\pgfmath.code.t
+ex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+tikz.code.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
+yplothandlers.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\modules\pgfmodulema
+trix.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+libraries\tikzlibrarytopaths.code.tex)))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\circuitikz\circuitikz.sty
+
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\frontendlayer\tikz\
+libraries\tikzlibrarycalc.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\pgf\libraries\pgflibrar
+yarrows.code.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\circuitikz.c
+ode.tex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircutils
+.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmath.
+tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircshape
+s.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircmonop
+oles.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircbipol
+es.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirctripo
+les.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircquadp
+oles.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircnpole
+s.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirclabel
+.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircvolta
+ge.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcirccurre
+nt.tex)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\pgfcircinput
+arrows.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\generic\circuitikz\circuitikz1.
+code.tex))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\animate\animate.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\ifdraft.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\calc.sty")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\atenddvi.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-abspage.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-base.sty"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\zref-lastpage.sty"))
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\animate\animfp.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\context\base\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)) (C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.sty
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\lstmisc.sty)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\listings\listings.cfg))
+(../Preamble/Administrative.sty
+
+LaTeX Warning: You have requested package `../Preamble/Administrative',
+               but the package provides `Preamble/Administrative'.
+
+)
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\biblatex\lbx\spanish.lbx)
+
+
+Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
+(biblatex)                Loading 'csquotes' recommended.
+
+(Profile.aux (Frontpages/Title.aux))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ts1cmr.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\t1lmr.fd")
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+(C:\Users\zurits\AppData\Roaming\MiKTeX\2.9\tex\latex\caption\ltcaption.sty)
+
+Package biblatex Warning: Data encoding is 'utf8'.
+(biblatex)                Use backend=biber.
+
+(Profile.bbl) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.st
+y" ("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+)) (Profile.out) (Profile.out) ABD: EveryShipout initializing macros
+(Frontpages/Title.tex <Figures/logoumsa.png, id=52, 62.48344pt x 126.4725pt>
+<use Figures/logoumsa.png>
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omllmm.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omslmsy.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\omxlmex.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd")
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd") [1{C:/Users/zurits
+/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./Figures/logoumsa.png>])
+(Profile.toc)pdfTeX warning (ext4): destination with the same identifier (name{
+page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.41 	\cleardoublepage
+                       [1] (Sections/01-Introduccion.tex)
+(Sections/02-Antecedentes.tex) (Sections/03-DefinicionDelProblema.tex)
+(Sections/04-Objetivos.tex) (Sections/05-Justificacion.tex)
+(Sections/06-AlcancesYLimitaciones.tex)
+(Sections/07-ProcedimientoDeDesarrollo.tex) (Sections/08-Temario.tex)
+(Sections/09-Cronograma.tex)
+
+LaTeX Warning: Empty bibliography on input line 54.
+
+
+Package glossaries Warning: No \printglossary or \printglossaries found.
+(Remove \makeglossaries if you don't want any glossaries.)
+This document will not have a glossary.
+
+[2] [3] (Profile.aux (Frontpages/Title.aux)) )
+(see the transcript file for additional information){C:/Program Files (x86)/MiK
+TeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmbx10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public
+/lm/lmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10
+.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Program Files (
+x86)/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb>
+Output written on Profile.pdf (4 pages, 200943 bytes).
+SyncTeX written on Profile.synctex.gz.
+Transcript written on Profile.log.
+
+20 Jul 2015 23:09:54.466 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+20 Jul 2015 23:09:54.466 INFO  CommandTrigger - All commands were successfully executed.
+20 Jul 2015 23:09:54.466 INFO  Arara - Done.

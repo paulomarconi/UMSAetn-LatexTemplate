@@ -1,0 +1,135 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\defcounter {refsection}{0}\relax 
+\vspace {0.5cm}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Contenido}{2}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Lista de Figuras}{3}{section*.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Lista de Tablas}{3}{section*.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Lista de C\IeC {\'o}digos}{3}{section*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Lista de Algoritmos}{4}{section*.5}
+\defcounter {refsection}{0}\relax 
+\vspace {0.5cm}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Introducci\IeC {\'o}n}{5}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Instalaci\IeC {\'o}n y Configuraci\IeC {\'o}n del Compilador y Editor de Texto}{5}{section.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}Compilador: Miktex (Windows) o TexLive (Windows/Linux)}{5}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Editor de Texto: TeXstudio}{6}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.2.1}Crear Macros}{7}{subsubsection.2.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Estructura y distribuci\IeC {\'o}n de los formatos}{8}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}Instalaci\IeC {\'o}n de paquetes faltantes}{8}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Primera compilaci\IeC {\'o}n completa para cualquier formato}{9}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Uso de estilos.sty}{10}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Preamble/UMSAetn.cls}{10}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Encabezado inicial}{10}{subsection.5.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Entradas Bibliogr\IeC {\'a}ficas}{11}{subsection.5.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Paquetes \textit {color} y \textit {xcolor}}{12}{subsection.5.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.4}Configuraci\IeC {\'o}n de Indice de palabras, Hyperlinks y Glosario/Acr\IeC {\'o}nimos}{13}{subsection.5.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.4.1}Indizar palabras y agregar notas al pie}{13}{subsubsection.5.4.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.5}Paquete \textit {algorithm2e}}{13}{subsection.5.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.6}Usar otros \textit {Fonts} y usar s\IeC {\'\i }mbolo [\degree ] en \textit {mathmode}}{15}{subsection.5.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Fonts:}{16}{section*.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{S\IeC {\'\i }mbolo [\degree ]:}{16}{section*.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.7}Paquetes gr\IeC {\'a}ficos: \textit {eps, Tikz/PGF y circuitikz}}{16}{subsection.5.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.1}Tikz/PGF}{16}{subsubsection.5.7.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.2}Circuitikz}{17}{subsubsection.5.7.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.7.3}Herramientas externas}{18}{subsubsection.5.7.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.8}Animaciones con GNUplot}{20}{subsection.5.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.9}Paquete \textit {Codehighlighting} (colorear c\IeC {\'o}digos)}{21}{subsection.5.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.9.1}Paquete \textit {listings}}{22}{subsubsection.5.9.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.10}Paquete \textit {kvoptions}}{24}{subsection.5.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.10.1}Opci\IeC {\'o}n \textit {Journal}}{25}{subsubsection.5.10.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Paquete \textit {Fancy header}}{26}{section*.16}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Makechapterhead}{26}{section*.17}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.10.2}Opci\IeC {\'o}n \textit {Article}}{26}{subsubsection.5.10.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.10.3}Opci\IeC {\'o}n \textit {Profile}}{26}{subsubsection.5.10.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.10.4}Opci\IeC {\'o}n \textit {Thesis}}{27}{subsubsection.5.10.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.10.5}Opci\IeC {\'o}n \textit {Tutorial}}{27}{subsubsection.5.10.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Preamble/Administrative.sty}{28}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {7}Backpages/Glossary.tex y Backpages/Acronyms.tex}{30}{section.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Formato JournalIEA.tex}{30}{section.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {8.1}Paquete \textit {Pax}}{31}{subsection.8.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Formato Article1.tex}{32}{section.9}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {10}Formato Profile.tex}{33}{section.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {11}Formato Thesis.tex}{34}{section.11}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {12}Formato MainTutorial.tex}{35}{section.12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {13}Modo matem\IeC {\'a}tico}{36}{section.13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.1}TeXstudio/Wizards/MathAssistant}{37}{subsection.13.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.2}Entorno \textit {equation}}{37}{subsection.13.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.3}Entorno \textit {align}}{37}{subsection.13.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {13.4}Entorno \textit {eqnarray}}{38}{subsection.13.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {14}Insertar tablas, figuras y subfiguras}{38}{section.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.1}Insertar Tablas}{38}{subsection.14.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.2}Insertar Figuras}{39}{subsection.14.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.3}Paquete \textit {float}}{39}{subsection.14.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {14.4}Subfiguras}{39}{subsection.14.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {15}Repositorios de \textit {Templates} y recomendaciones}{40}{section.15}
+\defcounter {refsection}{0}\relax 
+\vspace {0.5cm}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Bibliograf\'{\i }a}{41}{section*.22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\IeC {\'I}ndice de Palabras}{42}{section*.23}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Acr\IeC {\'o}nimos}{42}{section*.25}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Glosario}{42}{section*.27}
+\defcounter {refsection}{0}\relax 
+\vspace {0.5cm}

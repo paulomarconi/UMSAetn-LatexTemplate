@@ -1,0 +1,56 @@
+%===============================================================================
+%------ Preambulo---------------------------------------------------------------
+%===============================================================================
+% arara: pdflatex: { synctex: on, shell: yes }
+% arara: bibtex
+% arara: pdflatex: { synctex: on, shell: yes }
+% arara: pdflatex: { synctex: on, shell: yes }
+%-------------------------------------------------------------------------------
+\documentclass[ %
+	Profile, %
+	FontSize=10pt
+]{../Preamble/UMSAetn}
+
+\usepackage[ %
+	University={Universidad Mayor de San Andrés}, %
+	UniversityWeb={http://umsa.edu.bo}, %
+	Faculty={Facultad de Ingeniería}, %
+	FacultyWeb={http://miing.umsa.edu.bo}, %
+	Department={Carrera de Ingeniería Electrónica}, %
+	DepartmentWeb={http://miing.umsa.edu.bo}, %
+	%
+	Title={Título}, %
+	Author={Paulo Roberto Loma Marconi}, %
+	AuthorEmail={mailto:prlomarconi@gmail.com}, %
+	Asesor={Nombre Asesor}, %
+	AsesorEmail={mailto:asesor@gmail.com}, %
+	Supervisor={Nombre DAM/Supervisor}, %
+	SupervisorEmail={mailto:dam@gmail.com}, %
+	%
+	FiguresPath={Figures/}, %	
+	BibPath={BibliographyProfile.bib}
+]{../Preamble/Administrative}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+	\include{Frontpages/Title}
+
+	\tableofcontents
+	\addtocontents{toc}{\vspace{0.5cm}}
+	\addcontentsline{toc}{section}{\contentsname} 
+	\cleardoublepage
+	
+	%---- Contenido principal ----------------------	
+	\input{Sections/01-Introduccion}		
+	\input{Sections/02-Antecedentes}
+	\input{Sections/03-DefinicionDelProblema}
+	\input{Sections/04-Objetivos}
+	\input{Sections/05-Justificacion}
+	\input{Sections/06-AlcancesYLimitaciones}
+	\input{Sections/07-ProcedimientoDeDesarrollo}
+	\input{Sections/08-Temario}
+	\input{Sections/09-Cronograma}
+	
+	\printbibliography
+	\addcontentsline{toc}{section}{\bibname}
+\end{document}

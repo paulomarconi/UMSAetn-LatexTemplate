@@ -1,0 +1,49 @@
+%===============================================================================
+%------ Preambulo---------------------------------------------------------------
+%===============================================================================
+% arara: pdflatex: { synctex: on, shell: yes }
+% arara: bibtex
+% arara: pdflatex: { synctex: on, shell: yes }
+% arara: pdflatex: { synctex: on, shell: yes }
+%-------------------------------------------------------------------------------
+\documentclass[ %
+	Article, %
+	PageType=empty, % plain=for Article, empty=for Journal
+	FontSize=10pt
+]{../../Preamble/UMSAetn}
+
+\usepackage[ %
+	Title={Título}, %
+	ThreeAuthors, % OneAuthor, TwoAuthors, ThreeAuthors
+	AuthorA={Paulo Roberto Loma Marconi}, %
+	AuthorAEmail={prlomarconi@gmail.com}, %
+	AuthorB={Paulo Roberto Loma Marconi}, %
+	AuthorBEmail={prlomarconi@gmail.com}, %
+	AuthorC={Paulo Roberto Loma Marconi}, %
+	AuthorCEmail={prlomarconi@gmail.com}, %
+	%
+	FiguresPath={Figures/}, %
+	BibPath={BibliographyArticle1.bib}
+]{../../Preamble/Administrative}
+
+%-------------------------------------------------------------------------------
+\begin{document}
+	\myMaketitle
+	\begin{abstract}\bf\textit{
+		content... \\ \linebreak
+		content.... \\ \linebreak
+		Keywords -- key1, key2 
+		}
+	\end{abstract}
+	\section{Introducción}
+	test test test
+	\subsection{subsection}
+		content... \cite{F.2012}
+ 
+	\subsubsection{subsubsection}
+		content... 
+	\section{Conclusiones}	
+		
+	\printbibliography
+	\nocite{*}
+\end{document}

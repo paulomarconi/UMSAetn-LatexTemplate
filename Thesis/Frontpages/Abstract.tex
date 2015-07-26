@@ -1,0 +1,21 @@
+\cleardoublepage %http://tex.stackexchange.com/questions/25798/how-can-i-add-abstract-and-acknowledgement-pages-into-the-table-of-contents
+\phantomsection	
+\addcontentsline{toc}{chapter}{\abstractname} 
+
+\newenvironment{abstract}{ %
+	\clearpage
+	\thispagestyle{empty}
+	\null\vfill
+	\begin{center}%
+		\Large\textit{\abstractname}
+		\bigskip
+	\end{center}
+}%
+{\vfill\null}
+
+\begin{abstract}
+	El \textit{Abstract} usualmente solo en una página, primero en inglés y luego en español.
+	
+	Esta página permanecerá centrada para que pueda expandirse a través del espacio blanco \ldots				
+\end{abstract}
+

@@ -1,0 +1,132 @@
+\NeedsTeXFormat{LaTeX2e}  
+\ProvidesPackage{Preamble/Administrative}[2015/07/20 UMSA-ETN-Bolivia]
+%-------------------------------------------------------------------------------
+\usepackage{kvoptions}
+\SetupKeyvalOptions{ %
+	family=admin, %
+	prefix=admin@ %
+}
+
+%---- Opciones generales -------------------------------------------------------
+\DeclareStringOption{University}
+\DeclareStringOption{UniversityWeb}
+\DeclareStringOption{Faculty}
+\DeclareStringOption{FacultyWeb}
+\DeclareStringOption{Department}
+\DeclareStringOption{DepartmentWeb}
+\DeclareStringOption{FiguresPath}
+\DeclareStringOption{BibPath}
+
+%---- Opciones para Journal ----------------------------------------------------
+\DeclareStringOption{Group}
+\DeclareStringOption{GroupWeb}
+\DeclareStringOption{Title}
+\DeclareStringOption{Subtitle}
+\DeclareStringOption{Editor}
+\DeclareStringOption{EditorEmail}
+\DeclareStringOption{Header}
+
+%---- Opciones para Article ----------------------------------------------------
+\DeclareStringOption{AuthorA}
+\DeclareStringOption{AuthorAEmail}
+\DeclareStringOption{AuthorB}
+\DeclareStringOption{AuthorBEmail}
+\DeclareStringOption{AuthorC}
+\DeclareStringOption{AuthorCEmail}
+\DeclareBoolOption{OneAuthor}
+\DeclareBoolOption{TwoAuthors}
+\DeclareBoolOption{ThreeAuthors}
+
+%---- Opciones para Thesis/Profile/Tutorial ------------------------------------
+\DeclareStringOption{Author}
+\DeclareStringOption{AuthorEmail}
+\DeclareStringOption{Asesor}
+\DeclareStringOption{AsesorEmail}
+\DeclareStringOption{Supervisor}
+\DeclareStringOption{SupervisorEmail}
+
+%---- Procesamiento de las opciones (keyvals) ----------------------------------
+\ProcessKeyvalOptions{admin} 
+
+%---- Comandos generales -------------------------------------------------------
+\newcommand{\myUniversity}{\href{\admin@UniversityWeb}{\admin@University}}
+\newcommand{\myFaculty}{\href{\admin@FacultyWeb}{\admin@Faculty}}
+\newcommand{\myDepartment}{\href{\admin@DepartmentWeb}{\admin@Department}}	
+\newcommand{\myTitle}{\admin@Title} 
+
+\newcommand{\myHRule}{\rule{\linewidth}{0.5mm}} % regla horizontal
+
+\addbibresource{\admin@BibPath}
+\graphicspath{\admin@FiguresPath}
+
+% A veces el paquete "\usepackage[spanish]{babel}" tiene conflictos al traducir, 
+% por eso se modifica los nombres con \renewcommand{cmd}{def},
+% pero si se usa [spanish]{babel} entonces se agrega, 
+% \addto\captionsspanish{\renewcommand{cmd}{def}}
+\addto\captionsspanish{\renewcommand{\abstractname}{Abstract}}
+\addto\captionsspanish{\renewcommand{\contentsname}{Contenido}} 
+\addto\captionsspanish{\renewcommand{\bibname}{Bibliografía}}
+\addto\captionsspanish{\renewcommand{\partname}{Parte}}
+\addto\captionsspanish{\renewcommand{\appendixname}{Apéndice}}
+\addto\captionsspanish{\renewcommand{\listfigurename}{Lista de Figuras}}
+\addto\captionsspanish{\renewcommand{\figurename}{Figura}}
+\addto\captionsspanish{\renewcommand{\listtablename}{Lista de Tablas}}
+\addto\captionsspanish{\renewcommand{\tablename}{Tabla}}
+\addto\captionsspanish{\renewcommand{\chaptername}{Capítulo}}
+\addto\captionsspanish{\renewcommand{\indexname}{Índice de Palabras}}
+\renewcommand{\lstlistlistingname}{Lista de Códigos}
+\renewcommand{\lstlistingname}{Código}
+\renewcommand{\listalgorithmcfname}{Lista de Algoritmos}
+%\renewcommand{\listconstants}{Constantes Físicas}
+\newcommand{\myAcknowledgements}{Agradecimientos}
+
+%---- Comandos para Journal ----------------------------------------------------
+\newcommand{\myGroup}{\href{\admin@GroupWeb}{\admin@Group}}
+\newcommand{\mySubtitle}{\admin@Subtitle} 
+\newcommand{\myEditorName}{\href{\admin@EditorEmail}{\admin@Editor}}
+\newcommand{\myHeader}{\admin@Header}
+
+%---- Comandos para Article ----------------------------------------------------
+\title{\huge\bf\myTitle}  
+%---- authors ---------------------------
+\ifadmin@OneAuthor{ 
+	\author{ 
+		\admin@AuthorA\\ 
+		\texttt{\admin@AuthorAEmail} 
+	} 
+} 
+\fi 	
+
+\ifadmin@TwoAuthors{ 
+	\author{ 
+		\admin@AuthorA\\ 
+		\texttt{\admin@AuthorAEmail} 
+		\and 
+		\admin@AuthorB\\ 
+		\texttt{\admin@AuthorBEmail} 
+	} 	
+} 
+\fi 
+
+\ifadmin@ThreeAuthors{ 
+	\author{ 
+		\admin@AuthorA\\ 
+		\texttt{\admin@AuthorAEmail} 
+		\and 
+		\admin@AuthorB\\ 
+		\texttt{\admin@AuthorBEmail} 
+		\and 
+		\admin@AuthorC\\ 
+		\texttt{\admin@AuthorCEmail} 
+	} 
+} 
+\fi 
+		
+\date{}
+
+%---- Comandos para Thesis/Profile ---------------------------------------------
+\newcommand{\myAuthorName}{\href{\admin@AuthorEmail}{\admin@Author}}
+\newcommand{\myAsesorName}{\href{\admin@AsesorEmail}{\admin@Asesor}}
+\newcommand{\mySupervisorName}{\href{\admin@SupervisorEmail}{\admin@Supervisor}}
+%-------------------------------------------------------------------------------
+\endinput

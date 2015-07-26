@@ -1,0 +1,49 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {spanish}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Abstract}{\es@scroman {i}}{section*.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Agradecimientos}{\es@scroman {ii}}{section*.2}
+\defcounter {refsection}{0}\relax 
+\vspace {0.5cm}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Contenido}{\es@scroman {v}}{chapter*.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lista de Figuras}{\es@scroman {vi}}{chapter*.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lista de Tablas}{\es@scroman {vii}}{chapter*.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lista de C\IeC {\'o}digos}{\es@scroman {viii}}{chapter*.7}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Lista de Algoritmos}{\es@scroman {ix}}{chapter*.8}
+\defcounter {refsection}{0}\relax 
+\vspace {0.5cm}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}Introducci\IeC {\'o}n}{1}{chapter.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Antecedentes}{1}{section.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Definici\IeC {\'o}n del problema}{1}{section.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Objetivos}{1}{section.1.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Justificaci\IeC {\'o}n}{1}{section.1.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}Marco Te\IeC {\'o}rico}{2}{chapter.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {3}Desarrollo del Proyecto}{3}{chapter.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {4}Resultados}{4}{chapter.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {5}Conclusiones}{5}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\vspace {0.5cm}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliograf\'{\i }a}{6}{chapter.5}
+\defcounter {refsection}{0}\relax 
+\vspace {0.5cm}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Ap\IeC {\'e}ndice A}{7}{appendix*.14}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Ap\IeC {\'e}ndice B}{8}{appendix*.15}

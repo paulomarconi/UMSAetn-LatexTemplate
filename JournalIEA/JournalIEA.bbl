@@ -1,0 +1,110 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{F.2012}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mora}{M.}%
+     {Walter}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borbón}{B.}%
+     {Alexánder}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Escuela de Matemática Instituto Tecnológico de Costa Rica}%
+  }
+  \strng{namehash}{MWBA1}
+  \strng{fullhash}{MWBA1}
+  \field{edition}{2da Edición}
+  \field{title}{Edición de Textos Científicos con Latex - Composición,
+  Diseño Editorial, Gráficos, Inkscape, Tikz y Presentaciones BLatex}
+  \verb{url}
+  \verb http://www.matematica.ciens.ucv.ve/files/Manuales/Manuales/LaTeX%20-%20
+  \verb Edicion%20de%20textos%20cientificos%20LaTeX%202012-%20Mora.%20W,%20Borb
+  \verb on.%20A.pdf
+  \endverb
+  \field{day}{21}
+  \field{month}{02}
+  \field{year}{2012}
+  \warn{\item Can't use 'date' + 'year'}
+\endentry
+
+\entry{Oetiker2014}{book}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Oetiker}{O.}%
+     {Tobias}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Partl}{P.}%
+     {Hubert}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hyna}{H.}%
+     {Irene}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schlegl}{S.}%
+     {Elisabeth}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OT+1}
+  \strng{fullhash}{OTPHHISE1}
+  \field{title}{The Not So Short Introduction to Latex2e}
+  \verb{url}
+  \verb http://www.ctan.org/tex-archive/info/lshort/english/
+  \endverb
+  \field{month}{04}
+  \field{year}{2014}
+  \warn{\item Can't use 'date' + 'year'}
+\endentry
+
+\entry{Talbot}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Talbot}{T.}%
+     {Nicola L.~C.}{N.~L.~C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Dickimaw Books}%
+  }
+  \strng{namehash}{TNLC1}
+  \strng{fullhash}{TNLC1}
+  \field{title}{Using Latex to Write a PhD Thesis}
+  \verb{url}
+  \verb http://www.dickimaw-books.com/latex/thesis/
+  \endverb
+  \field{month}{03}
+  \field{year}{2013}
+  \warn{\item Can't use 'date' + 'year'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

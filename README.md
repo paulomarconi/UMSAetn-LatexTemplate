@@ -1,4 +1,4 @@
-# UMSAetn-LatexTemplate
+#UMSAetn-LatexTemplate
 
 Template genérico para estudiantes de Ingeniería Electrónica, "Universidad Mayor de San Andrés - UMSA", La Paz, Bolivia.
 
@@ -8,21 +8,13 @@ Formatos:
 - Journal
 - Artículo
 
-versión 1.8
-- Creación de la clase UMSAetn.cls, formatos JournalIEA y ArticleIEA agregados.
-versión 1.7
-- Crear gráficos con Tikz y animaciones con GNUplot.
-versión 1.6
-- Formato de página de título cambiado, reubicación de páginas finales. 
-versión 1.5
-- Algoritmos multicolumna, cambiar color links de Glossaries.
-versión 1.4
-- Package "circuitikz", uso de otros Fonts y LATEX LICENSE.
-versión 1.3
-- Reubicado "insertar tablas, figuras y subfiguras".
-versión 1.2
-- Package "algorithm2e". 
-versión 1.1 
-- Bibliografía = biblatex + natbib.
-versión 1.0
-- Bibliografía = bibtex + natbib.
+##Changes
+- **v1.8** Creación de la clase UMSAetn.cls, formatos JournalIEA y ArticleIEA agregados.
+- **v1.7** Creación de gráficos con Tikz y animaciones con GNUplot.
+- **v1.6** Formato de página de título cambiado, reubicación de páginas finales. 
+- **v1.5** Algoritmos multicolumna, cambiar color links de Glossaries.
+- **v1.4** Package "circuitikz", uso de otros Fonts y LATEX LICENSE.
+- **v1.3** Reubicado "insertar tablas, figuras y subfiguras".
+- **v1.2** Package "algorithm2e". 
+- **v1.1** Bibliografía = biblatex + natbib.
+- **v1.0** Bibliografía = bibtex + natbib.

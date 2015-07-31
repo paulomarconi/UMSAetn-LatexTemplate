@@ -1,6 +1,12 @@
 # UMSAetn-LatexTemplate
 
-A generic template for Engineering students at "Universidad Mayor de San Andrés - UMSA", La Paz, Bolivia - South America.
+Template genérico para estudiantes de Ingeniería Electrónica, "Universidad Mayor de San Andrés - UMSA", La Paz, Bolivia.
+
+Formatos:
+- Tesis de grado
+- Perfil de tesis de grado
+- Journal
+- Artículo
 
 versión 1.8
 - Creación de la clase UMSAetn.cls, formatos JournalIEA y ArticleIEA agregados.

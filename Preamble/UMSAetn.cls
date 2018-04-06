@@ -3,7 +3,7 @@
 %-------------------------------------------------------------------------------
 \AtEndOfClass{
 	%---- Paquetes genéricos ---------------------------------------------------
-	\usepackage[utf8]{inputenc} %encoding multi-byte
+	\usepackage[utf8]{inputenc} %encoding multi-byte jkwfhwjkehfjkewhfjkehrjkjkehrejkhrjkewhrjk
 	\usepackage[T1]{fontenc} %para los separación de palabras "can-ción"
 	\usepackage[spanish]{babel} %traducir al español Chapters, Contents, etc.
 	\usepackage{lmodern} %Estilo de fuente

@@ -1,25 +1,25 @@
-08 Mar 2017 00:13:31.956 INFO  Arara - Welcome to arara!
-08 Mar 2017 00:13:31.959 INFO  Arara - Processing file 'MainTutorial.tex', please wait.
-08 Mar 2017 00:13:31.962 INFO  DirectiveExtractor - Reading directives from MainTutorial.tex.
-08 Mar 2017 00:13:31.963 TRACE DirectiveExtractor - Directive found in line 4 with pdflatex: { synctex: on, shell: yes }.
-08 Mar 2017 00:13:32.046 TRACE DirectiveExtractor - Directive found in line 5 with bibtex.
-08 Mar 2017 00:13:32.046 TRACE DirectiveExtractor - Directive found in line 6 with makeindex.
-08 Mar 2017 00:13:32.047 TRACE DirectiveExtractor - Directive found in line 7 with makeglossaries.
-08 Mar 2017 00:13:32.047 TRACE DirectiveExtractor - Directive found in line 8 with pdflatex: { synctex: on, shell: yes }.
-08 Mar 2017 00:13:32.049 TRACE DirectiveExtractor - Directive found in line 9 with pdflatex: { synctex: on, shell: yes }.
-08 Mar 2017 00:13:32.057 INFO  DirectiveParser - Parsing directives.
-08 Mar 2017 00:13:32.064 INFO  TaskDeployer - Deploying tasks into commands.
-08 Mar 2017 00:13:32.065 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
-08 Mar 2017 00:13:32.204 TRACE TaskDeployer - Task 'bibtex' found in 'C:\Program Files\arara\rules'.
-08 Mar 2017 00:13:32.207 TRACE TaskDeployer - Task 'makeindex' found in 'C:\Program Files\arara\rules'.
-08 Mar 2017 00:13:32.219 TRACE TaskDeployer - Task 'makeglossaries' found in 'C:\Program Files\arara\rules'.
-08 Mar 2017 00:13:32.226 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
-08 Mar 2017 00:13:32.233 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
-08 Mar 2017 00:13:32.243 INFO  CommandTrigger - Ready to run commands.
-08 Mar 2017 00:13:32.243 INFO  CommandTrigger - Running 'PDFLaTeX'.
-08 Mar 2017 00:13:32.243 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "MainTutorial.tex"
-08 Mar 2017 00:13:50.207 TRACE CommandTrigger - Output logging:
-08 Mar 2017 00:13:50.210 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit)
+16 Oct 2017 09:21:28.563 INFO  Arara - Welcome to arara!
+16 Oct 2017 09:21:28.563 INFO  Arara - Processing file 'MainTutorial.tex', please wait.
+16 Oct 2017 09:21:28.563 INFO  DirectiveExtractor - Reading directives from MainTutorial.tex.
+16 Oct 2017 09:21:28.563 TRACE DirectiveExtractor - Directive found in line 4 with pdflatex: { synctex: on, shell: yes }.
+16 Oct 2017 09:21:28.632 TRACE DirectiveExtractor - Directive found in line 5 with bibtex.
+16 Oct 2017 09:21:28.632 TRACE DirectiveExtractor - Directive found in line 6 with makeindex.
+16 Oct 2017 09:21:28.632 TRACE DirectiveExtractor - Directive found in line 7 with makeglossaries.
+16 Oct 2017 09:21:28.632 TRACE DirectiveExtractor - Directive found in line 8 with pdflatex: { synctex: on, shell: yes }.
+16 Oct 2017 09:21:28.632 TRACE DirectiveExtractor - Directive found in line 9 with pdflatex: { synctex: on, shell: yes }.
+16 Oct 2017 09:21:28.647 INFO  DirectiveParser - Parsing directives.
+16 Oct 2017 09:21:28.647 INFO  TaskDeployer - Deploying tasks into commands.
+16 Oct 2017 09:21:28.647 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
+16 Oct 2017 09:21:28.778 TRACE TaskDeployer - Task 'bibtex' found in 'C:\Program Files\arara\rules'.
+16 Oct 2017 09:21:28.778 TRACE TaskDeployer - Task 'makeindex' found in 'C:\Program Files\arara\rules'.
+16 Oct 2017 09:21:28.794 TRACE TaskDeployer - Task 'makeglossaries' found in 'C:\Program Files\arara\rules'.
+16 Oct 2017 09:21:28.794 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
+16 Oct 2017 09:21:28.794 TRACE TaskDeployer - Task 'pdflatex' found in 'C:\Program Files\arara\rules'.
+16 Oct 2017 09:21:28.815 INFO  CommandTrigger - Ready to run commands.
+16 Oct 2017 09:21:28.815 INFO  CommandTrigger - Running 'PDFLaTeX'.
+16 Oct 2017 09:21:28.815 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "MainTutorial.tex"
+16 Oct 2017 09:21:43.784 TRACE CommandTrigger - Output logging:
+16 Oct 2017 09:21:43.784 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit)
 entering extended mode
 (MainTutorial.tex
 LaTeX2e <2017/01/01> patch level 1
@@ -505,7 +505,7 @@ Overfull \hbox (6.92336pt too wide) in paragraph at lines 151--152
 des-cen-den-te, cuan-do eje-cu-tas \T1/lmss/m/n/10 Alt+shift+F1
 (../Tutorial/MainTutorial.tex [9]) (../Preamble/UMSAetn.cls [10 <./Figures/arar
 a1.png>]) (../Preamble/UMSAetn.cls)
-<Figures/Jabref1.png, id=541, 554.07pt x 529.22719pt>
+<Figures/Jabref1.png, id=540, 554.07pt x 529.22719pt>
 <use Figures/Jabref1.png> [11] (../Preamble/UMSAetn.cls) [12 <./Figures/Jabref1
 .png>] (../Preamble/UMSAetn.cls) (../Preamble/UMSAetn.cls) [13] [14]
 (../Preamble/UMSAetn.cls [15])
@@ -604,6 +604,10 @@ LaTeX Warning: There were undefined references.
 
 LaTeX Warning: There were multiply-defined labels.
 
+
+Package biblatex Warning: Please rerun LaTeX.
+(biblatex)                Page breaks have changed.
+
  )
 (\end occurred inside a group at level 1)
 
@@ -634,15 +638,15 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmtt8.pfb>
-Output written on MainTutorial.pdf (45 pages, 1734276 bytes).
+Output written on MainTutorial.pdf (45 pages, 1734262 bytes).
 SyncTeX written on MainTutorial.synctex.gz.
 Transcript written on MainTutorial.log.
 
-08 Mar 2017 00:13:50.212 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
-08 Mar 2017 00:13:50.212 INFO  CommandTrigger - Running 'BibTeX'.
-08 Mar 2017 00:13:50.212 TRACE CommandTrigger - Command: bibtex  "MainTutorial.aux"
-08 Mar 2017 00:13:50.517 TRACE CommandTrigger - Output logging:
-08 Mar 2017 00:13:50.517 TRACE CommandTrigger - This is BibTeX, Version 0.99d (MiKTeX 2.9.6210 64-bit)
+16 Oct 2017 09:21:43.784 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+16 Oct 2017 09:21:43.784 INFO  CommandTrigger - Running 'BibTeX'.
+16 Oct 2017 09:21:43.784 TRACE CommandTrigger - Command: bibtex  "MainTutorial.aux"
+16 Oct 2017 09:21:43.984 TRACE CommandTrigger - Output logging:
+16 Oct 2017 09:21:43.984 TRACE CommandTrigger - This is BibTeX, Version 0.99d (MiKTeX 2.9.6210 64-bit)
 The top-level auxiliary file: MainTutorial.aux
 The style file: biblatex.bst
 A level-1 auxiliary file: Frontpages/Title.aux
@@ -653,22 +657,22 @@ Database file #1: MainTutorial-blx.bib
 Database file #2: BibliographyTutorial.bib
 Biblatex version: 3.3
 
-08 Mar 2017 00:13:50.518 INFO  CommandTrigger - 'BibTeX' was successfully executed.
-08 Mar 2017 00:13:50.518 INFO  CommandTrigger - Running 'MakeIndex'.
-08 Mar 2017 00:13:50.518 TRACE CommandTrigger - Command: makeindex    "MainTutorial.idx"
-08 Mar 2017 00:13:50.824 TRACE CommandTrigger - Output logging:
-08 Mar 2017 00:13:50.825 TRACE CommandTrigger - This is makeindex, version 2.15 [MiKTeX 2.9.6210 64-bit] (kpathsea + Thai support).
+16 Oct 2017 09:21:43.984 INFO  CommandTrigger - 'BibTeX' was successfully executed.
+16 Oct 2017 09:21:43.984 INFO  CommandTrigger - Running 'MakeIndex'.
+16 Oct 2017 09:21:43.984 TRACE CommandTrigger - Command: makeindex    "MainTutorial.idx"
+16 Oct 2017 09:21:44.200 TRACE CommandTrigger - Output logging:
+16 Oct 2017 09:21:44.200 TRACE CommandTrigger - This is makeindex, version 2.15 [MiKTeX 2.9.6210 64-bit] (kpathsea + Thai support).
 Scanning input file MainTutorial.idx....done (1 entries accepted, 0 rejected).
 Sorting entries...done (0 comparisons).
 Generating output file MainTutorial.ind....done (5 lines written, 0 warnings).
 Output written in MainTutorial.ind.
 Transcript written in MainTutorial.ilg.
 
-08 Mar 2017 00:13:50.825 INFO  CommandTrigger - 'MakeIndex' was successfully executed.
-08 Mar 2017 00:13:50.825 INFO  CommandTrigger - Running 'MakeGlossaries'.
-08 Mar 2017 00:13:50.825 TRACE CommandTrigger - Command: makeglossaries  "MainTutorial"
-08 Mar 2017 00:13:51.854 TRACE CommandTrigger - Output logging:
-08 Mar 2017 00:13:51.854 TRACE CommandTrigger - makeglossaries version 2.20 (2016-12-16)
+16 Oct 2017 09:21:44.200 INFO  CommandTrigger - 'MakeIndex' was successfully executed.
+16 Oct 2017 09:21:44.200 INFO  CommandTrigger - Running 'MakeGlossaries'.
+16 Oct 2017 09:21:44.200 TRACE CommandTrigger - Command: makeglossaries  "MainTutorial"
+16 Oct 2017 09:21:44.869 TRACE CommandTrigger - Output logging:
+16 Oct 2017 09:21:44.869 TRACE CommandTrigger - makeglossaries version 2.20 (2016-12-16)
 added glossary type 'main' (glg,gls,glo)
 added glossary type 'acronym' (alg,acr,acn)
 makeindex  -s "MainTutorial.ist" -t "MainTutorial.glg" -o "MainTutorial.gls" "MainTutorial.glo"
@@ -688,11 +692,11 @@ Generating output file MainTutorial.acr....done (6 lines written, 0 warnings).
 Output written in MainTutorial.acr.
 Transcript written in MainTutorial.alg.
 
-08 Mar 2017 00:13:51.855 INFO  CommandTrigger - 'MakeGlossaries' was successfully executed.
-08 Mar 2017 00:13:51.855 INFO  CommandTrigger - Running 'PDFLaTeX'.
-08 Mar 2017 00:13:51.855 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "MainTutorial.tex"
-08 Mar 2017 00:14:14.688 TRACE CommandTrigger - Output logging:
-08 Mar 2017 00:14:14.690 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit)
+16 Oct 2017 09:21:44.869 INFO  CommandTrigger - 'MakeGlossaries' was successfully executed.
+16 Oct 2017 09:21:44.869 INFO  CommandTrigger - Running 'PDFLaTeX'.
+16 Oct 2017 09:21:44.869 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "MainTutorial.tex"
+16 Oct 2017 09:21:59.680 TRACE CommandTrigger - Output logging:
+16 Oct 2017 09:21:59.680 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit)
 entering extended mode
 (MainTutorial.tex
 LaTeX2e <2017/01/01> patch level 1
@@ -1178,7 +1182,7 @@ Overfull \hbox (6.92336pt too wide) in paragraph at lines 151--152
 des-cen-den-te, cuan-do eje-cu-tas \T1/lmss/m/n/10 Alt+shift+F1
 (../Tutorial/MainTutorial.tex [9]) (../Preamble/UMSAetn.cls [10 <./Figures/arar
 a1.png>]) (../Preamble/UMSAetn.cls)
-<Figures/Jabref1.png, id=541, 554.07pt x 529.22719pt>
+<Figures/Jabref1.png, id=540, 554.07pt x 529.22719pt>
 <use Figures/Jabref1.png> [11] (../Preamble/UMSAetn.cls) [12 <./Figures/Jabref1
 .png>] (../Preamble/UMSAetn.cls) (../Preamble/UMSAetn.cls) [13] [14]
 (../Preamble/UMSAetn.cls [15])
@@ -1307,15 +1311,15 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmtt8.pfb>
-Output written on MainTutorial.pdf (45 pages, 1742672 bytes).
+Output written on MainTutorial.pdf (45 pages, 1734237 bytes).
 SyncTeX written on MainTutorial.synctex.gz.
 Transcript written on MainTutorial.log.
 
-08 Mar 2017 00:14:14.690 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
-08 Mar 2017 00:14:14.691 INFO  CommandTrigger - Running 'PDFLaTeX'.
-08 Mar 2017 00:14:14.691 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "MainTutorial.tex"
-08 Mar 2017 00:14:40.767 TRACE CommandTrigger - Output logging:
-08 Mar 2017 00:14:40.767 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit)
+16 Oct 2017 09:21:59.680 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+16 Oct 2017 09:21:59.680 INFO  CommandTrigger - Running 'PDFLaTeX'.
+16 Oct 2017 09:21:59.680 TRACE CommandTrigger - Command: pdflatex   --shell-escape --synctex=1  "MainTutorial.tex"
+16 Oct 2017 09:22:16.487 TRACE CommandTrigger - Output logging:
+16 Oct 2017 09:22:16.487 TRACE CommandTrigger - This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit)
 entering extended mode
 (MainTutorial.tex
 LaTeX2e <2017/01/01> patch level 1
@@ -1801,7 +1805,7 @@ Overfull \hbox (6.92336pt too wide) in paragraph at lines 151--152
 des-cen-den-te, cuan-do eje-cu-tas \T1/lmss/m/n/10 Alt+shift+F1
 (../Tutorial/MainTutorial.tex [9]) (../Preamble/UMSAetn.cls [10 <./Figures/arar
 a1.png>]) (../Preamble/UMSAetn.cls)
-<Figures/Jabref1.png, id=541, 554.07pt x 529.22719pt>
+<Figures/Jabref1.png, id=540, 554.07pt x 529.22719pt>
 <use Figures/Jabref1.png> [11] (../Preamble/UMSAetn.cls) [12 <./Figures/Jabref1
 .png>] (../Preamble/UMSAetn.cls) (../Preamble/UMSAetn.cls) [13] [14]
 (../Preamble/UMSAetn.cls [15])
@@ -1930,10 +1934,10 @@ fb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/lm/lmtt10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/l
 m/lmtt8.pfb>
-Output written on MainTutorial.pdf (45 pages, 1734271 bytes).
+Output written on MainTutorial.pdf (45 pages, 1742694 bytes).
 SyncTeX written on MainTutorial.synctex.gz.
 Transcript written on MainTutorial.log.
 
-08 Mar 2017 00:14:40.768 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
-08 Mar 2017 00:14:40.769 INFO  CommandTrigger - All commands were successfully executed.
-08 Mar 2017 00:14:40.769 INFO  Arara - Done.
+16 Oct 2017 09:22:16.487 INFO  CommandTrigger - 'PDFLaTeX' was successfully executed.
+16 Oct 2017 09:22:16.487 INFO  CommandTrigger - All commands were successfully executed.
+16 Oct 2017 09:22:16.487 INFO  Arara - Done.

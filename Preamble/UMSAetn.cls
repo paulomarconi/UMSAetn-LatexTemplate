@@ -3,7 +3,7 @@
 %-------------------------------------------------------------------------------
 \AtEndOfClass{
 	%---- Paquetes genéricos ---------------------------------------------------
-	\usepackage[utf8]{inputenc} %encoding multi-byte jkwfhwjkehfjkewhfjkehrjkjkehrejkhrjkewhrjk
+	\usepackage[utf8]{inputenc} %encoding multi-byte 
 	\usepackage[T1]{fontenc} %para los separación de palabras "can-ción"
 	\usepackage[spanish]{babel} %traducir al español Chapters, Contents, etc.
 	\usepackage{lmodern} %Estilo de fuente
@@ -37,6 +37,7 @@
 		citecolor=blue, %
 		urlcolor=blue %
 	]{hyperref} 
+	\urlstyle{same}
 	
 	%---- Glosario y Acrónimos -------------------------------------------------
 	\usepackage[toc,acronym]{glossaries} % toc=agrega glosarios a TablaDeContenido

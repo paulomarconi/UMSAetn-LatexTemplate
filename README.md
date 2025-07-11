@@ -19,5 +19,4 @@ Formatos:
 - **v1.1** Bibliografía = biblatex + natbib.
 - **v1.0** Bibliografía = bibtex + natbib.
 
-Template license:
-CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
